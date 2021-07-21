@@ -1,0 +1,33 @@
+==================
+Basic JSON
+==================
+
+{
+    "version": "world",
+    "description": "blay"
+}
+
+---
+
+(document (object 
+    (version_pair (string (string_content)))
+    (description_pair (string (string_content)))
+))
+
+==================
+ConfigurationUI boolean
+==================
+
+{
+    "version": "world",
+    "description": "blay",
+    "configurationUi": true
+}
+
+---
+
+(document (object 
+    (version_pair (string (string_content)))
+    (description_pair (string (string_content)))
+    (config_ui_pair (true))
+))
